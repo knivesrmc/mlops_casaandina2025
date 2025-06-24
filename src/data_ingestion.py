@@ -6,7 +6,7 @@ from src.logger import get_logger
 from src.custom_exception import CustomException
 from config.paths_config import *
 from utils.common_functions import read_yaml
-from google.oauth2 import service_account
+
 
 logger =get_logger(__name__)
 
@@ -23,8 +23,6 @@ class DataIngestion:
     def descarga_csv_desde_gcp(self):
         try:
             logger.info(f"Se cae antes")
-            #credentials = service_account.Credentials.from_service_account_file("src\mlops-utec-22062025-f3759a07c3dd.json")
-            #client = storage.Client(credentials=credentials)
             client=storage.Client()
             logger.info(f"Se cae despues")
             bucket=client.bucket(self.bucket_name)
