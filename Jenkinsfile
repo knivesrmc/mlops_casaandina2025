@@ -12,7 +12,7 @@ pipeline{
             steps{
                 script{
                     echo 'Clonando la repo............'
-                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/data-guru0/MLOPS-COURSE-PROJECT-1.git']])
+                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/knivesrmc/mlops_casaandina2025.git']])
                 }
             }
         }
