@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mlops-utec-22062025",
+  "private_key_id": "f3759a07c3dd72761f9e9a50fb94a30c2264d61f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtB0FUYQjcecTy\n4p3FG/VAES8R4CjpazGMpFeNT33IUDsjU43C3H+ORp2Lk19JvA4KDtIrbQgpmxlo\nkbwmKaJkIuzPE/395JzrepvQ7XnAm0o4NHrtSfe3BmQdbta8qTstZ4vUGonA+2YN\nhuA8XAW92DyMzTZ6Zl7o3znSlpDUikXq/HDudmD+06lRv1dUe4yyc9ReY0sDBLyR\nh9o3jugCDiCWQuAd+qThQ71BRafNvN7r6+4sx6IjfcPdvtHPsWHmVQpnQBrbEF4z\ndV7Tn5CMmt3rIxn94zopfiJslxkV7lGDJIzoMwxHLye4QPTsF5zUFf8+nwqUPj2Y\nE0MYeP4rAgMBAAECggEABang9w3tYtNvjBMOiVGmykU7Dlw71UFyJUGJ23EYfmfg\nj6xKoxq26CV36bDWDnf5LlYZhgddxt2HTDdyT6jO4nU23XkGOCXKscsucifGc59W\n+MEAVxJek99B2VQenkfxzRorEbMZWDeXubtKTV97u/Y/K81ZylGIgMSHGYAJLJPD\nosrJSIPAjUou0EMrD1+6O5eRnOcvXOGjzpb2a2H17d5ytm/fPw9zJjhBU/8mWS1V\nkwP4VXmkYPF0MsVHOCEvm3L3czEZFzoEzeqtz0sD5ZWTblefWZ9MgqX0KgfBDy3C\n25nUUtdvSO0jq63NP1fD0r+A37/lRKvaXOGKcUBeFQKBgQDaebg8d6lalT+mqGlP\nH1h969FR9ICv6Pj77VyD0qqiOCHT3wMgbRknAXLHTs3wErxZ1gMoysCCwV5dqstv\nVN+28JdqPfhH6+btCSZwhPaL6a1umBXtB2iLViFTaM3TB5GUGgND8wpmobNjF+6S\n2y30rafAH+Yg/0ek8Bc1rFXcbQKBgQDKvz5E0TcRoAxARC3qd6xiGGzIaKLoRAhe\nYPg9ZDChswtv6hOw8NzF0JyvWThoT9CORcxd3RulcwyBzIqlmTjEe24oleRw+oaU\n6iqGkOnqVJXWwq+SXvY4xE9x/iCeUIloYP4hCd91NjW0f14vuln0OgC9RRjbq8g6\nuqcQpkH19wKBgQCmgRurYds9AQA4qKNRvOb5WO73kes9pcWUYsseYEDRTwxg59b/\nMIZ51r2+Lk3/SJgps1RHE3bycCLWKiPPHpU9XFFZlA8T6TLethmIqZ0o9pfJ8LjN\nI9dGUgcmBXrP+TW29LhGYgUsQNJxlDyrycVVc7+kSetefJACoURfEI+DZQKBgQCv\nIIxH4zOfHNEYPgwvSFn1jcWBQqjc2c8kvrwOQ1migsZxUA7cOuFoWS7OY9HOgIrU\nKcRCm7fCrOLzx1tHeVdImJlpozfkwvG29aHwBIKY76FSFW6Uj0Q9eoxpGarRNR3L\ntGQu45lKZJ31IEOaFGyZAfUbh/DV5scYu5uNTR8StwKBgBUstetVZn+Tv8DgFSsw\n/e2RHW4Xj1tWaubPgh5rAEcOgBZEDbwqllxQjGMzN7OQVIpebqRVWHHZ/1LE4IEx\nmjWcIbAf7fNiW+sZV27rcJ/LY8A918OXF3rDFlN66erL2gNL0lS9NvhUsIGQAA7e\nSFS5scCtq4rWsIy88OpUrzKk\n-----END PRIVATE KEY-----\n",
+  "client_email": "utec-mlops-22062025@mlops-utec-22062025.iam.gserviceaccount.com",
+  "client_id": "118304311868254635137",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/utec-mlops-22062025%40mlops-utec-22062025.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
