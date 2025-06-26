@@ -5,6 +5,10 @@ FROM python:slim
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
+# ARG
+ARG GOOGLE_APPLICATION_CREDENTIALS_PATH
+ENV GOOGLE_APPLICATION_CREDENTIALS=/app/gcp-key.json
+    
 # Set the working directory
 WORKDIR /app
 
@@ -16,6 +20,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Copy the application code
 COPY . .
+
+# Copy Credentials File
+
+COPY ${GOOGLE_APPLICATION_CREDENTIALS_PATH} /app/gcp-key.json
+
 
 # Install the package in editable mode
 RUN pip install --no-cache-dir -e .
