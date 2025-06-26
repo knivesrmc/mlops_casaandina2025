@@ -22,9 +22,8 @@ class DataIngestion:
     
     def descarga_csv_desde_gcp(self):
         try:
-            logger.info(f"Se cae antes")
+            
             client=storage.Client()
-            logger.info(f"Se cae despues")
             bucket=client.bucket(self.bucket_name)
 
             blob=bucket.blob(self.file_name)
