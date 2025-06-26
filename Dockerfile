@@ -7,7 +7,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 # ARG
 ARG GOOGLE_APPLICATION_CREDENTIALS_PATH
-ENV GOOGLE_APPLICATION_CREDENTIALS=/app/gcp-key.json
+ENV GOOGLE_APPLICATION_CREDENTIALS=/gcp-key.json
     
 # Set the working directory
 WORKDIR /app
@@ -23,7 +23,7 @@ COPY . .
 
 # Copy Credentials File
 
-COPY ${GOOGLE_APPLICATION_CREDENTIALS_PATH} /app/gcp-key.json
+COPY ${GOOGLE_APPLICATION_CREDENTIALS_PATH} /gcp-key.json
 
 
 # Install the package in editable mode
